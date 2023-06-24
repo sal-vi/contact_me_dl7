@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+/* CONTACTS SECTION */
+
+.contacts-section{
+    flex-basis: 300px;
+    height: 100%;
+    border: 1px solid #BEC1BB;
+}
+
+/* HEADER */
+
+.header-contact{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+
+.main-contact p{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-icons i{
+    font-size: 24px;
+    color: #828485;
+}
+
+.contact-icons i:hover{
+    color: #000;
+}
+
+/* NEW CHAT */
+
+.new-chat-box{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #BEC1BB;
+}
+
+.new-chat-btn{
+    padding: 1rem 4rem;
+    background-color: #A491D2;
+    text-decoration: none;
+    color: #fff;
+}
+
+.new-chat-btn:hover{
+    background-color: #CDC3E6;
+}
+
+.new-chat-btn:focus{
+    background-color: #BEC1BB;
+}
+
+/* CONTACT MENU */
+
+.contact-menu .contact{
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #BEC1BB;    
+}
+
+.contact-menu .contact:hover{
+    background-color: #CDC3E6;
+}
+
+.contact{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contact img{
+    border-radius: 100%;
+    border: 2px solid #CDC3E6;
+    width: 4rem;
+    height: 4rem;
+}
+
+.main-contact img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.contact div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+.contact h2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.contact p{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* MAIN SECTION */
+
+main{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+}
+
+main img{
+    width: 18rem;
+}
+
+main h1{
+    font-size: 45px;
+}
+
+.main-text{
+    max-width: 500px;
+    font-size: 18px;
+}
